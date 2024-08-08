@@ -1,1 +1,19 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+#error,
+#errorCVC,
+#errorAmount,
+#errorNombre,
+#errorApellido,
+#errorCiudad,
+#errorState,
+#errorPostal,
+#errorText {
+  background-color: #ff334a;
+  border: 1px solid;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin: 3px;
+  color: antiquewhite;
+  padding: 1px;
+  display: none;
+}
